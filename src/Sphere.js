@@ -53,7 +53,7 @@ class Sphere extends Component {
         for (var i = 0; i < pathLength; i++) {
           aimations.push(anime({
             targets: spherePathEls[i],
-            stroke: {value: ['rgba(255,75,75,1)', 'rgba(80,80,80,.35)'], duration: 500},
+            stroke: {value: ['rgba(255,75,75,1)', 'rgba(80,80,80,.35)'], duration: 700},
             translateX: [2, -4],
             translateY: [2, -4],
             easing: 'easeOutQuad',

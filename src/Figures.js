@@ -6,6 +6,7 @@ class Figures extends Component {
   render() {
     return (
       <div className="CurrFigures">
+        <button className="absolute top-1-ns f6 link dim ph3 pv2 mb2 dib white bg-dark-red">Stop</button>
         <div class="animation-wrapper">
           <div class="layered-animations">
             <svg class="large shape" viewBox="0 0 96 96">

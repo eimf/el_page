@@ -5,15 +5,17 @@ import Tree from './Tree'
 import Figures from './Figures'
 import Think from './Think'
 import TheSymbol from './Symbol'
+import Speech from './Speech'
 
 function App() {
   return (
     <div className="App">
-    <Tree className="the-tree"/>
-    <Sphere/>
-    <Figures/>
-    <Think/>
-    <TheSymbol/>
+      <Tree/>
+      <Sphere/>
+      <Figures/>
+      <Think/>
+      <TheSymbol/>
+      <Speech/>
     </div>
   );
 }

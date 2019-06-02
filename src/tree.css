@@ -4,3 +4,7 @@
   right: 0;
   height: 21em;
 }
+
+.ugly-tree .st0 {
+  fill-rule:evenodd;clip-rule:evenodd;fill:black;stroke:#000001;stroke-width:0.1;stroke-miterlimit:10;
+}
