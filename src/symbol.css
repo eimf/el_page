@@ -1,0 +1,211 @@
+.container {
+   width: 21rem;
+   height: 70vh;
+   position: absolute;
+   top: 50%;
+   left: 21%;
+   transform: translate(-50%, -50%);
+   overflow: hidden;
+   filter: url("#goo");
+}
+ .circle {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 20rem;
+   height: 20rem;
+   border-radius: 50%;
+   border: 0.5rem solid;
+   animation: color 7s infinite alternate;
+}
+ .circle::before, .circle::after {
+   content: '';
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%) rotate(45deg);
+   width: 50%;
+   height: 50%;
+   border-radius: 50%;
+   border: 0.3rem solid;
+   z-index: -1;
+   pointer-events: none;
+}
+ .circle::before {
+   animation: grow 7s infinite -7s alternate;
+}
+ .circle::after {
+   animation: grow 7s infinite -14s alternate;
+}
+ @keyframes grow {
+   from {
+     transform: translate(-50%, -50%) scale(0);
+  }
+   to {
+     transform: translate(-50%, -50%) scale(2);
+  }
+}
+ @keyframes color {
+   0% {
+     color: #cfff94;
+  }
+   50% {
+     color: #ace9ff;
+  }
+   100% {
+     color: #ff9494;
+  }
+}
+ @keyframes go {
+   from {
+     top: -150%;
+  }
+   to {
+     top: 150%;
+  }
+}
+ .bar {
+   position: absolute;
+   border-radius: 1rem;
+}
+ .bar:nth-child(1) {
+   left: 0;
+   top: 0;
+   width: 0.575rem;
+   height: 10rem;
+   background: linear-gradient(#f7ff94, #ffacac);
+}
+ .bar:nth-child(2) {
+   left: 5%;
+   top: 10%;
+   width: 0.345rem;
+   height: 5rem;
+   background: linear-gradient(#ff9494, #ace9ff);
+}
+ .bar:nth-child(3) {
+   left: 10%;
+   top: 40%;
+   width: 0.575rem;
+   height: 13rem;
+   background: linear-gradient(#33c9ff, #cfff94);
+}
+ .bar:nth-child(4) {
+   left: 20%;
+   top: 50%;
+   width: 0.575rem;
+   height: 7rem;
+   background: linear-gradient(#ace9ff, #ff9494);
+}
+ .bar:nth-child(5) {
+   left: 50%;
+   top: 5%;
+   width: 0.575rem;
+   height: 5rem;
+   background: linear-gradient(#cfff94, #33c9ff);
+}
+ .bar:nth-child(6) {
+   left: 53%;
+   top: 80%;
+   width: 0.575rem;
+   height: 10rem;
+   background: linear-gradient(#ace9ff, #ff9494);
+}
+ .bar:nth-child(7) {
+   left: 75%;
+   top: 45%;
+   width: 0.575rem;
+   height: 5rem;
+   background: linear-gradient(#f7ff94, #ffacac);
+}
+ .bar:nth-child(8) {
+   left: 85%;
+   top: -25%;
+   width: 0.575rem;
+   height: 12rem;
+   background: linear-gradient(#33c9ff, #cfff94);
+}
+ .bar:nth-child(9) {
+   left: 75%;
+   top: 80%;
+   width: 0.575rem;
+   height: 5rem;
+   background: linear-gradient(#f7ff94, #ffacac);
+}
+ .bar:nth-child(10) {
+   left: 95%;
+   top: 25%;
+   width: 0.345rem;
+   height: 10rem;
+   background: linear-gradient(#cfff94, #33c9ff);
+}
+ .bar:nth-child(11) {
+   left: 35%;
+   top: 25%;
+   width: 11.5rem;
+   height: 0.3rem;
+   background: linear-gradient(to right, #cfff94, #33c9ff);
+}
+ .bar:nth-child(12) {
+   left: -20%;
+   top: 65%;
+   width: 17.25rem;
+   height: 0.5rem;
+   background: linear-gradient(to right, #33c9ff, #cfff94);
+}
+ .bar:nth-child(13) {
+   left: 35%;
+   top: 45%;
+   width: 11.5rem;
+   height: 0.4rem;
+   background: linear-gradient(to right, #ace9ff, #ff9494);
+}
+ .bar:nth-child(14) {
+   left: 35%;
+   top: 55%;
+   width: 5.75rem;
+   height: 0.5rem;
+   background: linear-gradient(to right, #ff9494, #ace9ff);
+}
+ .bar:nth-child(15) {
+   left: 15%;
+   top: 15%;
+   width: 11.5rem;
+   height: 0.5rem;
+   background: linear-gradient(to right, #f7ff94, #ffacac);
+}
+ .bar:nth-child(16) {
+   left: 20%;
+   top: 50%;
+   width: 5.75rem;
+   height: 0.3rem;
+   background: linear-gradient(to right, #ff9494, #ace9ff);
+}
+ .bar:nth-child(17) {
+   left: 10%;
+   top: 90%;
+   width: 5.75rem;
+   height: 0.5rem;
+   background: linear-gradient(to right, #f7ff94, #ffacac);
+}
+ .bar:nth-child(18) {
+   left: 15%;
+   top: 35%;
+   width: 5.75rem;
+   height: 0.5rem;
+   background: linear-gradient(to right, #f7ff94, #ffacac);
+}
+ .bar:nth-child(19) {
+   left: 60%;
+   top: 30%;
+   width: 0.345rem;
+   height: 15rem;
+   background: linear-gradient(#cfff94, #33c9ff);
+}
+ .bar:nth-child(20) {
+   left: 75%;
+   top: 75%;
+   width: 0.345rem;
+   height: 5rem;
+   background: linear-gradient(#33c9ff, #cfff94);
+}

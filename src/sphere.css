@@ -1,7 +1,7 @@
 .sphere-animation {
-  animation: sphere-spin infinite 5s linear;
+  animation: sphere-spin infinite 7s linear;
   position: absolute;
-  top: 30%;
+  top: 40%;
   right: 10%;
   width: 30em;
   height: 30em;
@@ -10,8 +10,8 @@
 
 .sphere path {
   fill: url(#sphereGradient);
-  stroke-width: 1px;
-  stroke: rgba(80,80,80,.35);
+  stroke-width: 2em;
+  stroke: rgba(81,81,81,.95);
   backface-visibility: hidden;
 }
 
